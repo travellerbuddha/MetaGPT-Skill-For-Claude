@@ -1,6 +1,6 @@
 <div align="center">
 
-# TexVector2
+# MetaGPT Skill for Claude
 
 **A software company in a slash command.**
 
@@ -38,7 +38,7 @@ That example run produced a 7-file Python package and **97 passing tests**.
 
 [MetaGPT](https://github.com/FoundationAgents/MetaGPT) showed that `Code = SOP(Team)`: give each role one standard document, and let the next role work only from the documents before it. The idea is good, but the framework needs an LLM API key and a Python stack.
 
-TexVector2 keeps the SOP and drops the stack. Each MetaGPT role is a Claude Code subagent. Their document fields mirror MetaGPT's own templates. Claude Code runs them in order inside the session, on your subscription.
+This repo keeps the SOP and drops the stack. Each MetaGPT role is a Claude Code subagent. Their document fields mirror MetaGPT's own templates. Claude Code runs them in order inside the session, on your subscription.
 
 ## Quick start
 
