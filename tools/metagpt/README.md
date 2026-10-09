@@ -1,10 +1,10 @@
-# MetaGPT + Claude
+# MetaGPT + Claude (API ile)
 
-[MetaGPT](https://github.com/FoundationAgents/MetaGPT) çok ajanlı bir framework; buradaki kurulum onu LLM olarak Claude ile çalıştırır.
+> API anahtarı yoksa bunu kullanma: Claude Code içinde `/metagpt` skill'i aynı rol zincirini aboneliğinle, API'siz çalıştırır (`.claude/skills/metagpt/`).
+
+[MetaGPT](https://github.com/FoundationAgents/MetaGPT) çok ajanlı bir framework; buradaki kurulum onu LLM olarak Claude API ile çalıştırır.
 
 ## Kurulum
-
-Cloud oturumlarında `.claude/hooks/session-start.sh` bunu otomatik yapar. Elle:
 
 ```bash
 export ANTHROPIC_API_KEY=...        # cloud'da: ortam ayarları → Environment variables
