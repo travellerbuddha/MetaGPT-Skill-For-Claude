@@ -42,12 +42,20 @@ This repo keeps the SOP and drops the stack. Each MetaGPT role is a Claude Code 
 
 ## Quick start
 
-1. Open this repo in [Claude Code](https://claude.ai/code): terminal, desktop or web.
-2. Type:
+Install it once as a plugin, in any Claude Code session (terminal, desktop or web):
 
-   ```text
-   /metagpt "your idea here"
-   ```
+```text
+/plugin marketplace add travellerbuddha/MetaGPT-Skill-For-Claude
+/plugin install metagpt@metagpt-skill-for-claude
+```
+
+Then, in any project:
+
+```text
+/metagpt "your idea here"
+```
+
+Already inside this repo? It's enabled automatically, so skip the install.
 
 Write the idea in any language and the documents come back in that language.
 
@@ -60,10 +68,10 @@ Write the idea in any language and the documents come back in that language.
 ## What's inside
 
 ```text
-.claude/
-├── skills/metagpt/SKILL.md      # the orchestrator: the SOP, step by step
-├── agents/metagpt-*.md          # 5 roles: PM, Architect, Project Manager, Engineer, QA
-└── settings.json                # enables the ponytail plugin
+.claude-plugin/                  # plugin + marketplace manifests
+skills/metagpt/SKILL.md          # the orchestrator: the SOP, step by step
+agents/metagpt-*.md              # 5 roles: PM, Architect, Project Manager, Engineer, QA
+.claude/settings.json            # enables metagpt + ponytail when you work in this repo
 tools/metagpt/                   # optional: real MetaGPT on the Claude API
 ```
 
