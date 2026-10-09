@@ -1,0 +1,5 @@
+# PyPI drift fixes for MetaGPT @ 11cdf466 (applied with uv --override)
+# lancedb==0.4.0 was deleted from PyPI; only used by optional metagpt/document_store/lancedb_store.py
+lancedb>=0.14
+# typer==0.9.0 crashes on click>=8.2 ("Secondary flag is not valid for non-boolean flag")
+click>=8.0,<8.2
