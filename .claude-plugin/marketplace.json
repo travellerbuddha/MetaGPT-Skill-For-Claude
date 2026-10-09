@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "metagpt-skill-for-claude",
+  "description": "MetaGPT's SOP (Code = SOP(Team)) as a Claude Code plugin.",
+  "owner": {
+    "name": "travellerbuddha",
+    "url": "https://github.com/travellerbuddha"
+  },
+  "plugins": [
+    {
+      "name": "metagpt",
+      "description": "One idea in: PRD, system design, task plan, working code and tests out. Runs on your Claude subscription, no API key.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

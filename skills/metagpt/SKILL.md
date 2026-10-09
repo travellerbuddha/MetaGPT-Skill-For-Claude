@@ -7,6 +7,8 @@ description: Run a MetaGPT-style "software company" (Product Manager → Archite
 
 MetaGPT's core idea: `Code = SOP(Team)`. Each role produces one standard document, and the next role works only from the documents before it. You are the orchestrator. Run the roles with the Agent tool in this order and pass each one the project name and the paths, never your own summary of a document.
 
+The role agents ship with this plugin. Installed as a plugin they are named `metagpt:metagpt-<role>` (e.g. `metagpt:metagpt-product-manager`); inside this repo without the plugin they are `metagpt-<role>`. Use whichever exists. Below they are written as `metagpt-<role>`.
+
 Input: the user's idea (the skill arguments). Options the user may add:
 - `--no-implement`: stop after the plan, which means skipping steps 4–5.
 - `--no-tests`: skip step 5.

@@ -1,0 +1,10 @@
+{
+  "name": "metagpt",
+  "version": "1.0.0",
+  "description": "MetaGPT-style software company in Claude Code: Product Manager \u2192 Architect \u2192 Project Manager \u2192 Engineer \u2192 QA turn one idea into a PRD, design, tasks, code and tests. No API key.",
+  "author": {
+    "name": "travellerbuddha",
+    "url": "https://github.com/travellerbuddha"
+  },
+  "repository": "https://github.com/travellerbuddha/MetaGPT-Skill-For-Claude"
+}
